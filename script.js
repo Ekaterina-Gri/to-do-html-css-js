@@ -45,7 +45,7 @@ function createTask(objectData) {
     btn.classList.add('app__list-button')
 
     const img = document.createElement('img')
-    img.src = '/images/trash.svg'
+    img.src = './images/trash.svg'
     img.alt = 'trash'
     img.width = 30
 
